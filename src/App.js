@@ -112,7 +112,9 @@ function App() {
                     'justify-content':'center',
                     'flex-direction':'column '
                 }}>
-                        <img src={bg1}/>
+                        <img style={{
+                            'width':'520px'
+                        }} src={bg1}/>
                 </div>
                 <div style={{
                     'display': 'flex',
