@@ -236,8 +236,8 @@ section {
 .icon-bg-1{
   width: 108px;
   height: 108px;
-  background: #0D0E11;
-  border-radius: 50%;
+  /*background: #0D0E11;*/
+  /*border-radius: 50%;*/
   position: relative;
   display: inline-block;
   margin: 0 auto;
@@ -247,6 +247,8 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 108px;
+  height: 108px;
 }
 
 .button-1{
@@ -306,14 +308,14 @@ section {
 }
 
 .box-content-1{
+  margin-left: 24px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px 32px 0px;
   gap: 4px;
-  height: 248px;
-  margin: 10px;
+  height: 258px;
   background: #262431;
   border-top: 1px solid #353343;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.16);

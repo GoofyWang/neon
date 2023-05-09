@@ -3,8 +3,9 @@ import Neonrabbits from  './img/Neonrabbits.png'
 import index1 from  './img/index1.png'
 import index2 from  './img/index2.png'
 import index3 from  './img/index3.png'
+import index4 from  './img/index4.png'
 import bg1 from  './img/bg1.png'
-import bg2 from  './img/bg2.png'
+import bg2 from  './img/bg2.jpg'
 import bg3 from  './img/bg3.png'
 import bg4 from  './img/bg4.png'
 import logo from  './img/logo.png'
@@ -17,6 +18,7 @@ import pic2 from  './img/pic2.png'
 import pic3 from  './img/pic3.png'
 import pic4 from  './img/pic4.png'
 import pic5 from  './img/pic5.png'
+import pic6 from  './img/pic6.png'
 
 function App() {
   return (
@@ -66,29 +68,30 @@ function App() {
 
             <div style={{'position':'relative'}}>
 
-                <img src={index1}
+                <img src={index4}
                     style={{
                         'position':'absolute',
                         'top':'210px',
-                        'left':'0px'
+                        'left':'0px',
+                        'width':'600px'
                     }}
                 />
-                <img src={index2}
-                     style={{
-                         'position':'absolute',
-                         'top':'258px',
-                         'left':'184px',
+                {/*<img src={index2}*/}
+                {/*     style={{*/}
+                {/*         'position':'absolute',*/}
+                {/*         'top':'258px',*/}
+                {/*         'left':'184px',*/}
 
-                     }}
-                />
-                <img src={index3}
-                     style={{
-                         'position':'absolute',
-                         'top':'306px',
-                         'left':'368px',
+                {/*     }}*/}
+                {/*/>*/}
+                {/*<img src={index3}*/}
+                {/*     style={{*/}
+                {/*         'position':'absolute',*/}
+                {/*         'top':'306px',*/}
+                {/*         'left':'368px',*/}
 
-                     }}
-                />
+                {/*     }}*/}
+                {/*/>*/}
 
             </div>
 
@@ -266,23 +269,10 @@ function App() {
                     Neonrabbits Builders
                 </div>
 
-                <div className="width100 flex-half">
-                    <div className="flex flex-wrap">
-                        <div className="pic-block-1">
-                            <img src={pic1}/>
-                        </div>
-                        <div className="pic-block-1">
-                            <img src={pic2}/>
-                        </div>
-                        <div className="pic-block-1">
-                            <img src={pic3}/>
-                        </div>
-                        <div className="pic-block-1">
-                            <img src={pic4}/>
-                        </div>
-
-                    </div>
-
+                <div className="width100 flex">
+                    <img style={{
+                        'width':'520px'
+                    }} src={pic6}/>
 
                     <div>
                         <div className="box-content-1">
