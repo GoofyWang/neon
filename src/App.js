@@ -30,16 +30,20 @@ function App() {
                 <img className={'logo'} src={logo}/>
                 <img className={'logo-content'} src={Neonrabbits}/>
               </div>
-              <div className={'contact-us'}>
+              <button
+                  style={{
+                      'cursor':'pointer'
+                  }}
+                  onClick={() => window.location = 'mailto:contact@neonrabbits.io'}
+                  className={'contact-us'}>
                 Contact Us
-              </div>
+              </button>
             </div>
           </div>
 
           <div className="basic-width flex-half"
             style={{
                 'height':'900px',
-
             }}
           >
             <div style={{
@@ -329,7 +333,12 @@ function App() {
                     Follow us on twitter to get the latest updates
                 </div>
                 <div>
-                    <div className="button-2">
+                    <div
+                        onClick={() => window.open('https://twitter.com/neon_rabbits?s=21&t=SWGzTD0IfGuvBZl8nrAX9w')}
+                        style={{
+                            'cursor':'pointer'
+                        }}
+                        className="button-2">
                         To Follow
                     </div>
                 </div>
