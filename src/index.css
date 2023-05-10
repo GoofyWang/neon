@@ -59,7 +59,7 @@ section {
   box-sizing: border-box;
   color: #FFFFFF;
   /* Auto layout */
-
+  font-weight: 700;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -158,7 +158,8 @@ section {
   font-size: 24px;
   line-height: 150%;
   color: #FFFFFF;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
+  font-weight: 700;
 }
 
 .title-9{
@@ -253,18 +254,23 @@ section {
 
 .button-1{
   color: #FFFFFF;
-  padding: 10px;
   background: #222222;
   display: inline-block;
   text-align:center;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 20px;
+  font-weight: 700;
 }
 
 .button-2{
-  padding: 10px;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 700;
   background: #FFFFFF;
   display: inline-block;
   text-align:center;
-  width: 112px;
+  padding: 0 20px;
 }
 
 .width100{
@@ -273,6 +279,8 @@ section {
 
 .width50{
   width: 50%;
+  color: #6D52FF;
+  color: #854BF9;
 }
 
 .center{

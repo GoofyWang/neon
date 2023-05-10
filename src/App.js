@@ -75,7 +75,7 @@ function App() {
                 <img src={index4}
                     style={{
                         'position':'absolute',
-                        'top':'210px',
+                        'top':'174px',
                         'left':'0px',
                         'width':'600px'
                     }}
@@ -162,7 +162,10 @@ function App() {
                         <div className="title-4 center">
                             Neonrabbits Love Utilities
                         </div>
-                        <div className="content-3">
+                        <div style={{
+                            'margin-top':'16px',
+                            'margin-bottom':'20px'
+                        }} className="content-3">
                             Neonrabbits are not only about sweeping the floor or degens. We are here for actual utilities.
                         </div>
                 </div>
@@ -275,7 +278,9 @@ function App() {
                     Neonrabbits Builders
                 </div>
 
-                <div className="width100 flex">
+                <div style={{
+                    'margin-top':'48px'
+                }} className="width100 flex">
                     <img style={{
                         'width':'520px'
                     }} src={pic6}/>
@@ -319,7 +324,7 @@ function App() {
 
         <section style={{
             'height':'240px',
-            'background':'linear-gradient(8.53deg, #6D52FF 6.97%, #854BF9 94.02%)'
+            'background':'linear-gradient(#6D52FF, #854BF9)'
         }}>
             <div className="basic-width"
                  style={{
