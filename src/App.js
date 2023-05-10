@@ -245,7 +245,7 @@ function App() {
 
         <section style={{
             'background':'#000',
-            'height':'900px',
+            'height':'1300px',
             'position': 'relative'
         }}>
 
@@ -269,7 +269,7 @@ function App() {
                  style={{
                      'justify-content':'center',
                      'flex-direction':'column ',
-                     'height':'900px'
+                     'height':'1300px'
                  }}
             >
 
@@ -310,6 +310,21 @@ function App() {
                             </div>
                             <div className="content-6">
                                 A serial entrepreneur, a software developer. His first startup, a community management tool, had over 30 million users.
+                            </div>
+
+                        </div>
+
+                        <div className="box-content-1" style={{
+                            'margin-top': '24px'
+                        }}>
+                            <div className="title-7">
+                                Peti Triot
+                            </div>
+                            <div className="content-5">
+                                Contributor & Advisor
+                            </div>
+                            <div className="content-6">
+                                Petit Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Petit Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
                             </div>
 
                         </div>
