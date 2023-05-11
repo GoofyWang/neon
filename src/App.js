@@ -20,6 +20,10 @@ import pic4 from  './img/pic4.png'
 import pic5 from  './img/pic5.png'
 import pic6 from  './img/pic6.png'
 
+// import { useMediaQuery } from 'react-responsive'
+
+// const isTabletOrMobile = useMediaQuery({ query: '(max-width: 800px)' })
+
 function App() {
   return (
     <div className="App">
