@@ -1,120 +1,75 @@
 import './App.css';
-import Neonrabbits from  './img/Neonrabbits.png'
-import index1 from  './img/index1.png'
-import index2 from  './img/index2.png'
-import index3 from  './img/index3.png'
-import index4 from  './img/index4.png'
-import bg1 from  './img/bg1.png'
-import bg2 from  './img/bg2.jpg'
-import bg3 from  './img/bg3.png'
-import bg4 from  './img/bg4.png'
-import logo from  './img/logo.png'
-import icon1 from  './img/icon1.png'
-import icon2 from  './img/icon2.png'
-import icon3 from  './img/icon3.png'
-import icon4 from  './img/icon4.png'
-import pic1 from  './img/pic1.png'
-import pic2 from  './img/pic2.png'
-import pic3 from  './img/pic3.png'
-import pic4 from  './img/pic4.png'
-import pic5 from  './img/pic5.png'
-import pic6 from  './img/pic6.png'
-import './index.css';
-
-// import MobileHtml from './mobile.js'
-
-// import { useMediaQuery } from 'react-responsive'
-// const isMobileDevice = useMediaQuery({
-//     minWidth:"800px",
-// });
-
-function App() {
-  return (
-    <div className="App">
-        <section>
-          <div className="navbar">
-            <div className="basic-width">
-              <div style={{'display':'flex','align-items':'center'}}>
-                <img className={'logo'} src={logo}/>
-                <img className={'logo-content'} src={Neonrabbits}/>
-              </div>
-              <button
-                  style={{
-                      'cursor':'pointer'
-                  }}
-                  onClick={() => window.location = 'mailto:contact@neonrabbits.io'}
-                  className={'contact-us'}>
-                Contact Us
-              </button>
-            </div>
-          </div>
-
-          <div className="basic-width flex-half"
-            style={{
-                'height':'900px',
-            }}
-          >
-            <div style={{
-              'display': 'flex',
-              'justify-content':'center',
-              'flex-direction':'column '
-            }}>
-                <div className="title-1">
-                  Neonrabbits
-                </div>
-                <div className="content-1" style={{
-                  'margin-bottom':'32px'
-                }}>
-                  Neonrabbits are connecting the dots of their lives, and always on adventures together at Neonspace
-                </div>
-                <div style={{
-                  'text-align': 'left'
-                }}>
-                  <div className="button-1">
-                    Minting Soon You Are Early
-                  </div>
-                </div>
+import logo from "./img/logo.png";
+import Neonrabbits from "./img/Neonrabbits.png";
+import './mobile.css';
+import index4 from "./img/index4.png";
+import bg2 from "./img/bg2.jpg";
+import bg1 from "./img/bg1.png";
+import icon1 from "./img/icon1.png";
+import icon2 from "./img/icon2.png";
+import icon3 from "./img/icon3.png";
+import icon4 from "./img/icon4.png";
+import bg3 from "./img/bg3.png";
+import bg4 from "./img/bg4.png";
+import pic6 from "./img/pic6.png";
+import pic5 from "./img/pic5.png";
+import r1 from "./img/r1.png";
+import r2 from "./img/r2.png";
+import r3 from "./img/r3.png";
+import r4 from "./img/r4.png";
+import r5 from "./img/r5.png";
+import r6 from "./img/r6.png";
 
 
-            </div>
 
-            <div style={{'position':'relative'}}>
+function Mobile(props) {
+    return <div className="App">
+                    <section className={"default-padding"}>
+                        <div className="navbar">
+                            <div className="left">
+                                <div style={{'display':'flex','align-items':'center'}}>
+                                    <img className={'logo'} src={logo}/>
+                                    <img className={'logo-content'} src={Neonrabbits}/>
+                                </div>
+                            </div>
+                            <div className="right flex-center">
+                                <button
+                                    style={{'cursor':'pointer'}}
+                                    onClick={() => window.location = 'mailto:contact@neonrabbits.io'}
+                                    className={'contact-us'}>
+                                    Contact Us
+                                </button>
+                            </div>
+                        </div>
+                        <div className={"first-part"}>
+                            <div className="first-part-img" >
+                                <img src={index4}
+                                     style={{
+                                         'width':'300px'
+                                     }}
+                                />
+                            </div>
+                            <div className="title-1 flex-center">
+                                Neonrabbits
+                            </div>
+                            <div className="content-1 flex-center" style={{
+                                'margin-bottom':'32px'
+                            }}>
+                                Neonrabbits are connecting the dots of their lives, and always on adventures together at Neonspace
+                            </div>
+                            <div className={"flex-center"}>
+                                <div className={"button-1"}>
+                                    Minting Soon You Are Early
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
-                <img src={index4}
-                    style={{
-                        'position':'absolute',
-                        'top':'174px',
-                        'left':'0px',
-                        'width':'600px'
-                    }}
-                />
-                {/*<img src={index2}*/}
-                {/*     style={{*/}
-                {/*         'position':'absolute',*/}
-                {/*         'top':'258px',*/}
-                {/*         'left':'184px',*/}
-
-                {/*     }}*/}
-                {/*/>*/}
-                {/*<img src={index3}*/}
-                {/*     style={{*/}
-                {/*         'position':'absolute',*/}
-                {/*         'top':'306px',*/}
-                {/*         'left':'368px',*/}
-
-                {/*     }}*/}
-                {/*/>*/}
-
-            </div>
-
-
-          </div>
-        </section>
         <section style={{
             'backgroundImage': `url(${bg2})`,
-            'height':'900px',
+            'height':'100%',
         }}>
-            <div className="basic-width flex-half"
+            <div className="default-padding"
                  style={{
                      'height':'900px'
                  }}
@@ -122,11 +77,12 @@ function App() {
                 <div style={{
                     'display': 'flex',
                     'justify-content':'center',
-                    'flex-direction':'column '
+                    'flex-direction':'center',
+                    'margin-left':'58px'
                 }}>
-                        <img style={{
-                            'width':'520px'
-                        }} src={bg1}/>
+                    <img style={{
+                        'width':'320px'
+                    }} src={bg1}/>
                 </div>
                 <div style={{
                     'display': 'flex',
@@ -153,29 +109,30 @@ function App() {
             </div>
         </section>
 
+
         <section style={{
             'background':'#F3FBFF',
-            'height':'1200px',
+            'height':'100%',
+            'padding':'72px 0px'
         }}>
 
-            <div className="basic-width"
-            style={{
-                'justify-content':'center',
-                'flex-direction':'column ',
-                'height':'1200px',
-            }}
+            <div className="default-padding"
+                 style={{
+                     'justify-content':'center',
+                     'flex-direction':'column ',
+                 }}
             >
 
                 <div className="width100">
-                        <div className="title-4 center">
-                            Neonrabbits Love Utilities
-                        </div>
-                        <div style={{
-                            'margin-top':'16px',
-                            'margin-bottom':'20px'
-                        }} className="content-3">
-                            Neonrabbits are not only about sweeping the floor or degens. We are here for actual utilities.
-                        </div>
+                    <div className="title-4 center">
+                        Neonrabbits Love Utilities
+                    </div>
+                    <div style={{
+                        'margin-top':'16px',
+                        'margin-bottom':'20px'
+                    }} className="content-3">
+                        Neonrabbits are not only about sweeping the floor or degens. We are here for actual utilities.
+                    </div>
                 </div>
 
                 <div className="width100 flex-row">
@@ -251,33 +208,39 @@ function App() {
 
         </section>
 
+
         <section style={{
             'background':'#000',
-            'height':'1300px',
-            'position': 'relative'
+            'height':'100%',
         }}>
-
-            <img style={{
-                'position': 'absolute',
-                'width': '766px',
-                'height': '375px',
-                'left': '0px',
-                'top': '0px'
-            }} src={bg3}/>
-
-            <img style={{
-                'position': 'absolute',
-                'width': '1351.75px',
-                'height': '131.34px',
-                'right': '0px',
-                'bottom': '0px'
-            }} src={bg4}/>
+            <div>
+                <img style={{
+                    'width': '30%',
+                }} src={r1}/>
+                <img style={{
+                    'width': '30%',
+                }} src={r2}/>
+                <img style={{
+                    'width': '30%',
+                }} src={r3}/>
+            </div>
+            <div style={{"margin-top":"-5px"}}>
+                <img style={{
+                    'width': '30%',
+                }} src={r4}/>
+                <img style={{
+                    'width': '30%',
+                }} src={r5}/>
+                <img style={{
+                    'width': '30%',
+                }} src={r6}/>
+            </div>
 
             <div className="basic-width"
                  style={{
                      'justify-content':'center',
                      'flex-direction':'column ',
-                     'height':'1300px'
+                     'height':'100%'
                  }}
             >
 
@@ -289,9 +252,7 @@ function App() {
                 <div style={{
                     'margin-top':'48px'
                 }} className="width100 flex">
-                    <img style={{
-                        'width':'520px'
-                    }} src={pic6}/>
+
 
                     <div>
                         <div className="box-content-1">
@@ -332,7 +293,7 @@ function App() {
                                 Contributor & Advisor
                             </div>
                             <div className="content-6">
-                                Petit Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Petit Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
+                                Peti Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Petit Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
                             </div>
 
                         </div>
@@ -362,7 +323,7 @@ function App() {
                 </div>
                 <div>
                     <div
-                        onClick={() => window.open('https://twitter.com/neon_rabbits?s=21&t=SWGzTD0IfGuvBZl8nrAX9w')}
+                        onClick={() => window.open('https://twitter.com/Neonrabbitsnft')}
                         style={{
                             'cursor':'pointer'
                         }}
@@ -371,7 +332,7 @@ function App() {
                     </div>
                 </div>
 
-                <img className="pic-block-2" src={pic5}/>
+                {/*<img className="pic-block-2" src={pic5}/>*/}
 
             </div>
 
@@ -393,8 +354,8 @@ function App() {
                 </div>
             </div>
         </section>
+
     </div>
-  );
 }
 
-export default App;
+export default Mobile;
