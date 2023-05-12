@@ -332,7 +332,7 @@ function App() {
                                 Contributor & Advisor
                             </div>
                             <div className="content-6">
-                                Petit Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Petit Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
+                                Peti Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Petit Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
                             </div>
 
                         </div>
@@ -362,7 +362,7 @@ function App() {
                 </div>
                 <div>
                     <div
-                        onClick={() => window.open('https://twitter.com/neon_rabbits?s=21&t=SWGzTD0IfGuvBZl8nrAX9w')}
+                        onClick={() => window.open('https://twitter.com/Neonrabbitsnft')}
                         style={{
                             'cursor':'pointer'
                         }}
