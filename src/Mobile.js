@@ -14,14 +14,14 @@ import bg4 from "./img/bg4.png";
 import pic6 from "./img/pic6.png";
 import pic5 from "./img/pic5.png";
 import s3 from "./img/section3-banner.png";
-
+import s2 from "./img/section2-bg.png";
 
 
 
 function Mobile(props) {
     return <div className="App">
-        <section className={"default-padding"}>
-                        <div className="navbar">
+        <section>
+                        <div className={"navbar default-padding"}>
                             <div className="left">
                                 <div style={{'display':'flex','align-items':'center'}}>
                                     <img className={'logo'} src={logo}/>
@@ -37,11 +37,12 @@ function Mobile(props) {
                                 </button>
                             </div>
                         </div>
-                        <div className={"first-part"}>
+                        <div className={"first-part padding-lr-32"}>
                             <div className="first-part-img" >
                                 <img src={index4}
                                      style={{
-                                         'width':'300px'
+                                         'width':'328px',
+                                         'height':'320px'
                                      }}
                                 />
                             </div>
@@ -62,7 +63,8 @@ function Mobile(props) {
                     </section>
 
         <section style={{
-            'backgroundImage': `url(${bg2})`,
+            'backgroundImage': `url(${s2})`,
+            'background-size':'cover',
             'height':'100%',
         }}>
             <div className="padding-lr-32">
@@ -94,6 +96,7 @@ function Mobile(props) {
                     </div>
                     <div className="content-2">
                         Neonspace serves as a habitat for Neonsabbits to reside, collaborate in building and thrive as a DAO.
+                        <br/>
                         <br/>
                         It also serves as a social platform for connecting with web3 industry professionals and enthusiasts, as well as managing community interactions.    </div>
                 </div>
@@ -284,7 +287,7 @@ function Mobile(props) {
             'height':'240px',
             'background':'linear-gradient(#6D52FF, #854BF9)'
         }}>
-            <div className="basic-width"
+            <div className="padding-lr-32"
                  style={{
                      'justify-content':'center',
                      'flex-direction':'column ',
