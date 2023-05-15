@@ -1,13 +1,13 @@
 import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import {isMobile} from 'react-device-detect';
+// import {isMobile} from 'react-device-detect';
 
 const App = lazy(() => import('./App'));
 const Mobile = lazy(() => import('./Mobile'));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-if (isMobile){
+if (window.innerWidth < 500){
     root.render(
         <React.StrictMode>
             <Mobile />
