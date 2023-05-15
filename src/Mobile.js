@@ -13,18 +13,14 @@ import bg3 from "./img/bg3.png";
 import bg4 from "./img/bg4.png";
 import pic6 from "./img/pic6.png";
 import pic5 from "./img/pic5.png";
-import r1 from "./img/r1.png";
-import r2 from "./img/r2.png";
-import r3 from "./img/r3.png";
-import r4 from "./img/r4.png";
-import r5 from "./img/r5.png";
-import r6 from "./img/r6.png";
+import s3 from "./img/section3-banner.png";
+
 
 
 
 function Mobile(props) {
     return <div className="App">
-                    <section className={"default-padding"}>
+        <section className={"default-padding"}>
                         <div className="navbar">
                             <div className="left">
                                 <div style={{'display':'flex','align-items':'center'}}>
@@ -69,11 +65,7 @@ function Mobile(props) {
             'backgroundImage': `url(${bg2})`,
             'height':'100%',
         }}>
-            <div className="default-padding"
-                 style={{
-                     'height':'900px'
-                 }}
-            >
+            <div className="padding-lr-32">
                 <div style={{
                     'display': 'flex',
                     'justify-content':'center',
@@ -116,7 +108,7 @@ function Mobile(props) {
             'padding':'72px 0px'
         }}>
 
-            <div className="default-padding"
+            <div className="padding-lr-32"
                  style={{
                      'justify-content':'center',
                      'flex-direction':'column ',
@@ -212,31 +204,13 @@ function Mobile(props) {
         <section style={{
             'background':'#000',
             'height':'100%',
+            'padding-bottom':'57px'
         }}>
-            <div>
-                <img style={{
-                    'width': '30%',
-                }} src={r1}/>
-                <img style={{
-                    'width': '30%',
-                }} src={r2}/>
-                <img style={{
-                    'width': '30%',
-                }} src={r3}/>
-            </div>
-            <div style={{"margin-top":"-5px"}}>
-                <img style={{
-                    'width': '30%',
-                }} src={r4}/>
-                <img style={{
-                    'width': '30%',
-                }} src={r5}/>
-                <img style={{
-                    'width': '30%',
-                }} src={r6}/>
+            <div className="section3-banner" >
+                <img src={s3} style={{'height':'284px'}}/>
             </div>
 
-            <div className="basic-width"
+            <div className="padding-lr-32"
                  style={{
                      'justify-content':'center',
                      'flex-direction':'column ',
@@ -314,8 +288,8 @@ function Mobile(props) {
                  style={{
                      'justify-content':'center',
                      'flex-direction':'column ',
-                     'height':'240px',
                      'position':'relative',
+                     'padding-top':'57px',
                  }}
             >
                 <div className="title-8">
@@ -332,20 +306,20 @@ function Mobile(props) {
                     </div>
                 </div>
 
-                {/*<img className="pic-block-2" src={pic5}/>*/}
+                <img className="pic-block-2" src={pic5}/>
 
             </div>
 
         </section>
         <section style={{
-            'height':'184px',
+            'height':'84px',
             'background':'#000000'
         }}>
-            <div className="basic-width"
+            <div className="flex-center"
                  style={{
                      'justify-content':'flex-end',
                      'flex-direction':'column ',
-                     'height':'184px',
+                     'height':'84px',
 
                  }}
             >
