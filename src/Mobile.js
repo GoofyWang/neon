@@ -207,7 +207,7 @@ function Mobile(props) {
             'padding-bottom':'57px'
         }}>
             <div className="section3-banner" >
-                <img src={s3} style={{'height':'284px'}}/>
+                <img src={s3} style={{'height':'284px','width':'100%'}}/>
             </div>
 
             <div className="padding-lr-32"
