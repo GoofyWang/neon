@@ -64,7 +64,7 @@ function Mobile(props) {
 
         <section style={{
             'backgroundImage': `url(${s2})`,
-            'background-size':'cover',
+            'background-size':'100% 100%',
             'height':'100%',
         }}>
             <div className="padding-lr-32">
