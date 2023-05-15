@@ -299,14 +299,13 @@ function Mobile(props) {
                     Follow us on twitter to get the latest updates
                 </div>
                 <div>
-                    <div
+                    <button
+                        style={{'cursor':'pointer'}}
                         onClick={() => window.open('https://twitter.com/Neonrabbitsnft')}
-                        style={{
-                            'cursor':'pointer'
-                        }}
-                        className="button-2">
+                        className={'button-2'}>
                         To Follow
-                    </div>
+                    </button>
+
                 </div>
 
                 <img className="pic-block-2" src={pic5}/>
