@@ -270,7 +270,7 @@ function Mobile(props) {
                                 Contributor & Advisor
                             </div>
                             <div className="content-6">
-                                Peti Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Petit Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
+                                Peti Triot is one of the leading artists in the Blockchain $1 Trillion Club. He has never been exposed to the Internet and only works on the blockchain. Peti Triot links installation art with NFTs. He exhibited the world's first blockchain-based artwork in Seoul, Korea.
                             </div>
 
                         </div>
