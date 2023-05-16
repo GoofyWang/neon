@@ -310,7 +310,8 @@ function Mobile(props) {
                     </div>
                 </div>
 
-                <img className="pic-block-2" src={pic5}/>
+                <img className="pic-block-2" src={pic5}                     onClick={() => window.open('https://twitter.com/Neonrabbitsnft')}
+                />
 
             </div>
 
