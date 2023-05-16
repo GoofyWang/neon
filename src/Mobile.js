@@ -298,14 +298,16 @@ function Mobile(props) {
                 <div className="title-8">
                     Follow us on twitter to get the latest updates
                 </div>
-                <div>
-                    <button
-                        style={{'cursor':'pointer'}}
-                        onClick={() => window.open('https://twitter.com/Neonrabbitsnft')}
-                        className={'button-2'}>
+                <div
+                    onClick={() => window.open('https://twitter.com/Neonrabbitsnft')}
+                >
+                    <div
+                        style={{
+                            'cursor':'pointer'
+                        }}
+                        className="button-2">
                         To Follow
-                    </button>
-
+                    </div>
                 </div>
 
                 <img className="pic-block-2" src={pic5}/>
