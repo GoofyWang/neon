@@ -119,7 +119,7 @@ function Mobile(props) {
             >
 
                 <div className="width100">
-                    <div className="title-4 center">
+                    <div className="title-4 flex-center">
                         Neonrabbits Love Utilities
                     </div>
                     <div style={{
@@ -210,7 +210,7 @@ function Mobile(props) {
             'padding-bottom':'57px'
         }}>
             <div className="section3-banner" >
-                <img src={s3} style={{'height':'284px','width':'100%'}}/>
+                <img src={s3} style={{'width':'100%'}}/>
             </div>
 
             <div className="padding-lr-32"
